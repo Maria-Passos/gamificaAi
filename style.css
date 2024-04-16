@@ -221,7 +221,7 @@ h2 {
 }
 
 #portfolio .container-grid{
-    height: 100px;
+    height: 100%;
 
     display: flex;
     flex-direction: column;
