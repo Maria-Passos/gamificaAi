@@ -144,11 +144,16 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 20px;
+    padding-bottom: 40px;
 
     background-color: var(--roxo-gamifica);
 
     border-radius: 4px;
 
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
 }
 
 .card img {
@@ -187,4 +192,48 @@ h2 {
 .card button:hover {
     background-color: #ad4929;
 
+}
+/* # chama id */
+#portfolio{
+    height: 250px;
+
+    background-image: url(img/bonecos.png);
+    background-size: 250px;
+
+    background-attachment: fixed;
+
+    position:relative
+
+}
+/* "." chama class */
+.filtro {
+    width: 100%;
+    height: 100%;
+    background-color: #47208bc2;
+
+    position: absolute; 
+    /* Não usa muito position pois dá varios bugs e quebra o código e d[a erro em espacividade
+    Só use Position é só para sobrepor ou quer deixar o header fixo. */
+     top: 0px; 
+
+     
+    
+}
+
+#portfolio .container-grid{
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#portfolio a{
+    color: white;
+
+    font-family: "Anta";
+
+    font-size: 28px;
+/* z-index para indicar as camadas */
+    z-index: 1;
+    
 }
