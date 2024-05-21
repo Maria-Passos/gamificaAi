@@ -472,6 +472,9 @@ footer .container-grid {
 .icones-redes a:hover {
     color: var(--laranja-gamifica);
 }
+.menu-fechado {
+    display: none;
+}
 
 @media screen and (max-width: 1300px) {
     /* media queries expansividade */
@@ -566,7 +569,8 @@ footer .container-grid {
 
 @media screen and (max-width: 800px) {
     .card {
-        flex-basis: 45%;
+         flex-basis: 45%;
+         /* (mesma coisa que width: ;) */
     }
 }
 
